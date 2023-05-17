@@ -1,0 +1,20 @@
+# Iniciar apps
+
+# Restaurar wallpaper
+~/.fehbg &
+
+# usar la tecla super(tecla windows)
+ksuperkey -e 'Super_L=Alt_L|F1' &
+ksuperkey -e 'Super_R=Alt_L|F1' &
+
+# Polybar
+~/.config/polybar/launch.sh --forest &
+
+# dunst
+dunst &
+
+# administrador de energia
+xfce4-power-manager &
+
+# iniciar polkit
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
